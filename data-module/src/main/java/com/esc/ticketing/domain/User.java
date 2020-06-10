@@ -18,7 +18,6 @@ import java.util.Set;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Component
 public class User extends BaseEntity{
     @Column
     private String name;
